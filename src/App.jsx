@@ -10,9 +10,9 @@ import Contact from './components/sections/Contact';
 
 function App() {
 
-    // Basic SEO title update (optional, as it's already in index.html, but good practice for SPA)
     useEffect(() => {
         document.title = "Grace Gameonai | Game & AI App Developer";
+        console.log("Portfolio app loaded successfully");
     }, []);
 
     return (
